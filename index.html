@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!----primary meta tags ፊሊ-->
+  <title>Fili Coffee</title>
+  <meta name="title" content="filly - Amazing & Delicious coffee drinks">
+  <meta name="description" content="This is a Restaurant html template made by fraol admasu">
+  <!--- favicon-->
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/svg+xml">
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <!--- custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--- preload images-->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+</head>
+<body id="top">
+  <!--- #PRELOADER -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Filly</p>
+  </div>
+  <!--- #TOP BAR-->
+  <div class="topbar">
+    <div class="container">
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">
+          Branch 2 (Coffee Bar) Mexico Buna Ena Shay inside Coffee Training Center</span>
+      </address>
+      <div class="separator"></div>
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">Open : 2.00 am to 3.00 pm .ETC</span>
+      </div>
+      <a href="tel:+251911029370" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">+251911029370</span>
+      </a>
+      <div class="separator"></div>
+      <a href="mailto:info@filicoffee.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">info@filicoffee.com</span>
+      </a>
+    </div>
+  </div>
+  <!--- #HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/Fill_logo.png" width="160" height="50" alt="Grilli - Home">
+      </a>
+      <nav class="navbar" data-navbar>
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <a href="#" class="logo">
+          <img src="./assets/images/Fill_logo.png" width="160" height="50" alt="Grilli - Home">
+        </a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                  <!---->
+                  <div class="separator"></div>
+                  <span class="span">Home</span>
+              </a>
+          </li>
+          <!--3-->
+          <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                  <!---->
+                  <div class="separator"></div>
+                  <span class="span">About Us</span>
+              </a>
+          </li>
+          <!--2-->
+          <li class="navbar-item">
+              <a href="#service" class="navbar-link hover-underline">
+                  <!---->
+                  <div class="separator"></div>
+                  <span class="span">SERVICE</span>
+              </a>
+          </li>
+          <!--4-->
+          <li class="navbar-item">
+              <a href="#Our-Chefs" class="navbar-link hover-underline">
+                  <!---->
+                  <div class="separator"></div>
+                  <span class="span">Our Strength</span>
+              </a>
+          </li>
+          <!--5-->
+          <li class="navbar-item">
+              <a href="#event" class="navbar-link hover-underline">
+                  <!---->
+                  <div class="separator"></div>
+                  <span class="span">EVENT</span>
+              </a>
+          </li>
+      </ul>
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+          <address class="body-4">
+            Branch 1 (Roastery)
+                                Lafto around 2000 Building <br>
+                                Branch 2 (Coffee Bar)
+                                Mexico Buna Ena Shay
+                                inside Coffee Training Center
+          </address>
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+          <a href="mailto:info@filicoffee.com" class="body-4 sidebar-link">info@filicoffee.com</a>
+          <div class="separator"></div>
+          <p class="contact-label">Booking Request</p>
+          <a href="tel:+251-911-029-370" class="body-1 contact-number hover-underline">+251-911-029-370</a>
+        </div>
+      </nav>
+      <a href="http://bil.pythonanywhere.com/OrderPage" class="btn btn-secondary">
+        <span class="text text-1">ORDER PAGE</span>
+        <span class="text text-2" aria-hidden="true">ORDER PAGE</span>
+      </a>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <!--- #HERO-->
+      <section class="hero text-center" aria-label="home" id="home">
+        <ul class="hero-slider" data-hero-slider>
+  <!--1--><li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img src="./assets/images/hero-slider-pp7.jpg" width="1880" height="950" alt="" class="img-cover">
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">Traditional & hygiene</p>
+              <h1 class="display-1 hero-title slider-reveal">
+                For the love of <br>
+                Delicious Food
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                Come with family & feel the joy of mouthwatering food
+              </p>
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Menu</span>
+                <span class="text text-2" aria-hidden="true">View Our Menu</span>
+              </a>
+          </li>
+  <!--1--><li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-pp7.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br>
+              the Seasons
+            </h1>
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+          </li>
+  <!--1--><li class="slider-item" data-hero-slider-item>
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-pp7.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+            <h1 class="display-1 hero-title slider-reveal">
+              Where every flavor <br>
+              tells a story
+            </h1>
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+          </li>
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>
+      </section>
+      <!--- #ABOUT-->
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+          <div class="about-content">
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+            <h2 class="headline-1 section-title">We are here to deliver quality Ethiopian Coffee</h2>
+            <p class="section-text">
+              Fili Coffee Roasting is established as one of the leading specialty
+              coffee roasters based in Addis Ababa. Fili Coffee Roasting is made up
+              of seasoned professionals who have reach experience in the coffee industry.
+              Our philosophy is driven by a passion for coffee and commitment to source and
+              roast some of the highest quality Ethiopian coffee package the very pure Arabic
+              coffee from different regions of Ethiopia. We produce in our rostery plant wit
+              different packaging size and specialty grades. We deliver quality roasted
+              coffee for coffee shops, bistros, restaurants and cafes. Now you can explore
+              the best Ethiopian coffee through the experience of a professional roastmaster..
+            </p>
+            <div class="contact-label">Book Through Call</div>
+            <a href="tel:+251-911-029-370" class="body-1 contact-number hover-underline">+251-911-029-370</a>
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+          </div>
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner2.gif" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-owner1.gif" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-67.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-99.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+      <!--- #SERVICE-->
+      <section class="section service bg-black-10 text-center" aria-label="service" id="service">
+        <div class="container">
+          <p class="section-subtitle label-2">Flavors For Royalty</p>
+          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+          <p class="section-text">
+            Certainly! Here's a catchy tagline for your coffee shop:
+            "**Serving Excellence, One Cup at a Time!**" ☕✨
+            Feel free to use it to highlight the top-notch quality of your coffee offerings! 😊
+          </p>
+          <ul class="grid-list">
+    <!-----><li>
+              <div class="service-card">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-coffee2.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                      <a href="#">Coffee</a>
+                  </h3>
+                  <p>Brewed in ethiopian traditional method "Yejebena Buna"</p>
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+                </div>
+              </div>
+            </li>
+    <!-----><li>
+              <div class="service-card">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-coffee3.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                      <a href="#">Macchiato</a>
+                  </h3>
+                  <p>An espresso with a small amount of foamed milk on top</p>
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+                </div>
+              </div>
+            </li>
+    <!-----><li>
+              <div class="service-card">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-coffee4.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+                  <div class="card-content">
+                  <h3 class="title-4 card-title">
+                      <a href="#">Espresso</a>
+                  </h3>
+                  <p>Syrupy mouthfeel; chocolate-toned finish with pleasing floral & nut tones</p>
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+                  </div>
+              </div>
+            </li>
+          </ul>
+          <img src="./assets/images/shape-22.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-22.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+      <!--- #SPECIAL DISH-->
+      <section class="special-dish text-center" arial-labelledby="dish-label">
+        <div class="special-dish-banner">
+            <img src="./assets/images/special-dish-banner1.jpg" width="940" height="600" loading="lazy" alt="special dish" class="img-cover">
+        </div>
+        <div class="special-dish-content bg-black-10">
+            <div class="container">
+                <img src="./assets/images/badge11.png" width="28" height41 ="badge" class="abs-img">
+                <p class="section-subtitle label-2">Special Dish</p>
+                <h2 class="headline-1 section-title">Macchiato</h2>
+                <p class="section-text">An espresso with a small amount of foamed milk on top.  <br>
+                  The caffé macchiato, sometimes called espresso macchiato, is an espresso coffee drink with a small amount of milk,
+                  usually foamed. The name “macchiato” comes from the Italian word meaning “stained” or “spotted,”
+                  so the literal translation of caffé macchiato
+                  is “stained coffee” or “marked coffee.
+                </p>
+                <div class="wrapper">
+                    <del class="del body-3">$100.00</del>
+                    <span class="span body-1">$70.00</span>
+                </div>
+                <a href="document/fill restaurant menu2.pdf" class="btn btn-primary">
+                    <span class="text text-1">View ALl Menu </span>
+                    <span  class="text text-2" aria-hidden="true">View ALl Menu</span>
+                </a>
+            </div>
+        </div>
+        <img src="./assets/images/shape-22.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+        <img src="./assets/images/shape-999.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+      </section>
+      <!--- #MENU-->
+      <section class="section menu" aria-label="menu-label" id="menu">
+      <div class="container">
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+          <ul class="grid-list">
+      <!-----><li>
+                  <div class="menu-card hover:card">
+                      <figure class="card-banner img-holder1" style="--width: 100; --height:100 ;">
+                          <img src="./assets/images/menu11.png" width="100" height="100" loading="lazy" alt="Greek Salad" class="img-cover">
+                      </figure>
+                      <div>
+                          <div class="title wrapper">
+                              <h3 class="title-3">
+                                  <a href="#" class="card-title">ESPRESSO</a>
+                              </h3>
+                              <span class="badge label-1">Seasonal</span>
+                              <span class="span title-2">$50.00</span>
+                          </div>
+                          <p class="card-text label-1">It’s worth noting that espresso forms the base for many other coffee drinks, such as lattes, cappuccinos, and Americano.
+                              Each of these drinks uses espresso as a base and adds different
+                              elements like milk or water..</p>
+                      </div>
+                  </div>
+              </li>
+      <!-----><li>
+                  <div class="menu-card hover:card">
+                      <figure class="card-banner img-holder1" style="--width: 100; --height:100 ;">
+                          <img src="./assets/images/menu22.png" width="100" height="100" loading="lazy" alt="Lasagne" class="img-cover">
+                      </figure>
+                      <div>
+                          <div class="title wrapper">
+                              <h3 class="title-3">
+                                  <a href="#" class="card-title">AMERICANO</a>
+                              </h3>
+                              <span class="span title-2">$70.00</span>
+                          </div>
+                          <p class="card-text label-1">an Americano is made from espresso and hot water. It’s a simple yet delicious coffee drink that’s enjoyed worldwide</p>
+                      </div>
+                  </div>
+              </li>
+      <!-----><li>
+                  <div class="menu-card hover:card">
+                      <figure class="card-banner img-holder1" style="--width: 100; --height:100 ;">
+                          <img src="./assets/images/menu-11.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin" class="img-cover">
+                      </figure>
+                      <div>
+                          <div class="title wrapper">
+                              <h3 class="title-3">
+                                  <a href="#" class="card-title">ICE CARAMEL</a>
+                              </h3>
+                              <span class="span title-2">$120.00</span>
+                          </div>
+                          <p class="card-text label-1">Ice: Fill a glass with ice1.
+                              Cold Coffee: Pour in the cold coffee. Fill the glass about ¾ of the way with cold coffee1.
+                              Milk and Caramel Sauce: Add milk and caramel sauce. Stir thoroughly to make sure the caramel does not sink to the bottom1.
+                              Enjoy: Your caramel iced coffee is ready to drink1</p>
+                      </div>
+                  </div>
+              </li>
+      <!-----><li>
+                  <div class="menu-card hover:card">
+                      <figure class="card-banner img-holder1" style="--width: 100; --height:100 ;">
+                          <img src="./assets/images/menu33.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu" class="img-cover">
+                      </figure>
+                      <div>
+                          <div class="title wrapper">
+                              <h3 class="title-3">
+                                  <a href="#" class="card-title">STRAWBERRY MOJITO </a>
+                              </h3>
+                              <span class="badge label-1">New</span>
+                              <span class="span title-2">$120.00</span>
+                          </div>
+                          <p class="card-text label-1">A Strawberry Mojito is a refreshing cocktail that combines the sweetness of strawberries with the tanginess of lime and the freshness of mint. Here’s how to make it:
+                              Strawberries: Start with 2 to 4 hulled and sliced strawberries1.
+                              Mint Leaves: Add 8 mint leaves1.
+                              Simple Syrup: Add 1/2 ounce of simple syrup1. You can make simple syrup by combining equal parts sugar and water1.
+                              Muddle: Use a muddler to crush the strawberries and mint leaves together in the bottom of a glass2. This helps to release their flavors1.
+                              Rum: Add rum. The type of rum can vary, but white rum is often used1.
+                              Ice: Fill the glass with ice1.
+                              Club Soda: Top off the glass with club soda.</p>
+                      </div>
+                  </div>
+              </li>
+      <!-----><li>
+                  <div class="menu-card hover:card">
+                      <figure class="card-banner img-holder1" style="--width: 100; --height:100 ;">
+                          <img src="./assets/images/menu44.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas" class="img-cover">
+                      </figure>
+                      <div>
+                          <div class="title wrapper">
+                              <h3 class="title-3">
+                                  <a href="#" class="card-title">BISCUITS</a>
+                              </h3>
+                              <span class="span title-2">$275.00</span>
+                          </div>
+                          <p class="card-text label-1">Biscuits are a type of baked bread product that can vary significantly in their ingredients and preparation methods depending on the region. Here’s a basic recipe for making biscuits:
+
+                              Flour: The base of the biscuit dough is typically made from plain flour12.
+                              Butter: Butter is mixed with the flour to give the biscuits their texture12.
+                              Sugar: Sugar is added for sweetness1.
+                              Egg: An egg is used to bind the ingredients together1.
+                              Baking Powder: Baking powder is used as a leavening agent to help the biscuits rise3.
+                              The dough is then kneaded briefly and rolled out, and the biscuits are cut with a round cutter3. The dough may also be dropped by spoonfuls for an irregular shape3..</p>
+                      </div>
+                  </div>
+              </li>
+      <!-----><li>
+                  <div class="menu-card hover:card">
+                      <figure class="card-banner img-holder1" style="--width: 100; --height:100 ;">
+                          <img src="./assets/images/menu55.png" width="100" height="100" loading="lazy" alt="Opu Fish" class="img-cover">
+                      </figure>
+                      <div>
+                          <div class="title wrapper">
+                              <h3 class="title-3">
+                                  <a href="#" class="card-title">CUSTARD</a>
+                              </h3>
+                              <span class="span title-2">$100.00</span>
+                          </div>
+                          <p class="card-text label-1">Custard is a delightful dessert that’s based on a mixture of milk or cream and egg yolk1. Here’s a basic recipe:
+
+                              Milk: Heat 568ml/1 pint of full fat milk in a small saucepan2.
+                              Vanilla: Slice a vanilla pod down the middle along its length. Scrape out the seeds with a knife and tip into the milk with the pod2.
+                              Egg Yolks: Mix together 3 egg yolks in a heatproof bowl2.
+                              Sugar: Add 25g/1oz caster sugar to the egg yolks2.
+                              Cornflour: Add 2 tsp of cornflour to the egg yolk and sugar mixture2.
+                              Combine: Pour the cooled milk into the paste and stir well with a wooden spoon, until smooth and fully incorporated2.
+                              Cook: Strain the mixture through a sieve into the saucepan and, stirring constantly, cook on a very low heat, until the custard thickens2.
+                              The custard is ready when you are able to make a clear line with your finger on the back of the wooden spoon2. Pour into a serving jug and enjoy your homemade custard2</p>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+          <p class="menu-text text-center">
+              During winter daily from <span class="span"> 7:00 PM </span> to
+              <span class="span"> 9:00 PM </span>
+          </p>
+          <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Menu</span>
+              <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+          <img src="./assets/images/shape-11.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-11.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+      </div>
+      </section>
+      <!-- #TESTIMONIAL-->
+      <section class="section testi text-center has-bg-image"
+            style="background-image: url('./assets/images/testimonial-bg2.jpg.');" aria-label="testimonials">
+      <div class="container">
+          <div class="qoute">”</div>
+          <p class="headline-2 testi-text">
+              Meet Filimon, Founder of Fili Coffee,
+              a coffee shop and roastery based in Addis.
+              Filimon shares the details of how he built his business:
+              the challenges, the market opportunities, the experience
+              and the plan for the future..
+          </p>
+          <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+          </div>
+          <div class="profile">
+              <img src="./assets/images/testi-avatar3.png" width="300" height="400" loading="lazy" alt="MR Filimon T/SELASE" class="img">
+              <p class="label-2 profile-name">MR Filimon T/SELASE</p>
+          </div>
+      </div>
+      </section>
+      <!-- #RESERVATION-->
+      <section class="contact reservation" id="contact">
+        <div class="container">
+            <div class="form reservation-form bg-black-10">
+                <form action="" class="form-left">
+                    <h2 class="headline-1 text-center">Online Reservation</h2>
+                    <p class="form-text text-center">
+                        Booking Request <a href="tel:+251-911-029-370" class="link">+251-911-029-370</a>
+                        Or Fill Out The Order Form
+                    </p>
+                    <div class="input-wrapper">
+                        <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                        <input type="tel" name="phone" placeholder="YourPhone Number" autocomplete="off" class="input-field">
+                    </div>
+                    <div class="input-wrapper">
+                <!-----><div class="icon-wrapper">
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                            <select name="person" class="input-field">
+                                <option value="1-person">1 person</option>
+                                <option value="2-person">2 person</option>
+                                <option value="3-person">3 person</option>
+                                <option value="4-person">4 person</option>
+                                <option value="5-person">5 person</option>
+                                <option value="6-person">6 person</option>
+                                <option value="7-person">6 person</option>
+                            </select>
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+                <!-----><div class="icon-wrapper">
+                            <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                            <input type="date" name="reservation-date" class="input-field">
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+                <!-----><div class="icon-wrapper">
+                            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                            <select name="person" class="input-field">
+                                <option value="08:00am">08 : 00 am</option>
+                                <option value="09:00am">09 : 00 am</option>
+                                <option value="010:00am">010 : 00 am</option>
+                                <option value="011:00am">011 : 00 am</option>
+                                <option value="012:00am">012 : 00 am</option>
+                                <option value="01:00am">01 : 00 pm</option>
+                                <option value="02:00am">02 : 00 pm</option>
+                                <option value="03:00am">03 : 00 pm</option>
+                                <option value="04:00am">04 : 00 pm</option>
+                                <option value="05:00am">05 : 00 pm</option>
+                                <option value="06:00am">06 : 00 pm</option>
+                                <option value="07:00am">07 : 00 pm</option>
+                                <option value="08:00am">08 : 00 pm</option>
+                                <option value="09:00am">09 : 00 pm</option>
+                                <option value="10:00am">10 : 00 pm</option>
+                            </select>
+                            <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                        </div>
+                    </div>
+                    <textarea name="message" placeholder="Message" autocapitalize="off" class="input-field"></textarea>
+                    <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Book A Table</span>
+                        <span class="text text-2" aria-hidden="true">Book A Table</span>
+                    </button>
+                </form>
+
+                <div class="contact form-right text-center" style="background-image: url('./images/form-pattern.png');">
+                    <h2 class="headline-1 text-center">Contact Us</h2>
+                    <p class="contact-label">Booking Request</p>
+                    <a href="tel:+251-911-029-370" class="body-1 contact-number hover-underline">
+                        +251-911-029-370
+                    </a>
+                    <div class="separator"></div>
+                    <p class="contact-label">Location</p>
+                    <address class="body-4">
+                        Branch 1 (Roastery)
+                        Lafto around 2000 Building <br>
+                        Branch 2 (Coffee Bar)
+                        Mexico Buna Ena Shay
+                        inside Coffee Training Center
+                    </address>
+                    <p class="contact-label">Lunch Time</p>
+                    <p class="body-4">
+                        Monday to Sunday <br> 11.00 am - 2.30pm
+                    </p>
+                    <p class="contact-label">Dinner Time</p>
+                    <p class="body-4">Monday to Sunday <br> 05.00 pm - 10.00pm</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- #FEATURES-->
+      <section class="Our-Chefs section features text-center" aria-label="features" id="Our-Chefs">
+        <div class="container">
+            <p class="section-subtitle label-2">Why Choose Us</p>
+            <h2 class="headline-1 section-title">Our Strength</h2>
+            <ul class="grid-list">
+        <!-----><li class="feature-item">
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-card-hygenic-food.png" width="100" height="80" loading="lazy" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Hygienic Food</h3>
+                        <p class="label-1 card-text">
+                            Handling: Proper handling of food is crucial to prevent cross-contamination between raw and cooked foods2. <br>
+                            Preparation: This includes practices like washing hands and surfaces often,avoiding cross-contamination.<br>
+                            <!--Storage: Proper storage of food can help prevent foodborne illnesses. This includes storing food at the correct temperature and for the appropriate amount of time2.--></p>
+                    </div>
+                </li>
+        <!-----><li class="feature-item">
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-card-fresh-environment.png" width="100" height="80" loading="lazy" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Fresh Environment</h3>
+                        <p class="label-1 card-text">
+                            A “fresh environment” could also refer to an environment that is clean, unpolluted, and natural. This could encompass the interaction of all living species, climate, weather,
+                            and natural resources that affect human survival and economic activity2..</p>
+                    </div>
+                </li>
+        <!-----><li class="feature-item">
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-card-barista.png" width="100" height="80" loading="lazy" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Skilled Barista</h3>
+                        <p class="label-1 card-text">
+                            Excellent customer service skills are crucial. This includes being polite and helpful to customers, acknowledging regular customers, resolving issues quickly, and maintaining a positive and friendly demeanor,
+                            A skilled barista should have a understanding of coffee,and,espresso,drinks,like lattes.</p>
+                    </div>
+                </li>
+        <!-----><li class="feature-item">
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <img src="./assets/images/features-card-event&party1.png" width="100" height="80" loading="lazy" alt="icon">
+                        </div>
+                        <h3 class="title-2 card-title">Event & Party</h3>
+                        <p class="label-1 card-text">
+                            An Event is a planned and organized occasion,for example,a social gathering,a meeting,party,trade show,or conference.It can be anything that happens, especially something important or unusual. <br>
+                            Events can be of various types such as sporting events,charity events,political events</p>
+                    </div>
+                </li>
+            </ul>
+            <img src="./assets/images/shape-77.png" width="208" height="178" alt="shape" class="shape shape-1">
+            <img src="./assets/images/shape-88.png" width="120" height="115" alt="shape" class="shape shape-2">
+        </div>
+      </section>
+      <!-- #EVENT-->
+      <section class="section event bg-black-10" aria-label="event" id="event">
+        <div class="container">
+            <p class="section-subtitle label-2 text-center">Recent Updates</p>
+            <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+            <ul class="grid-list">
+        <!--1---><li>
+                    <div class="event-card has-before hover:shine">
+                        <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                            <img src="./assets/images/event-pop1.png" width="350" height="450" loading="lazy"
+                            alt="Filimon, founder of Fili Coffee featured on Mella TV." class="img-cover">
+                            <time class="publish-date label-2" datetime="8th August, 2018">8th August, 2018</time>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-subtitle label-2 text-center">Filli, Coffee</p>
+                            <h3 class="card-title title-2 text-center">Filimon, founder of Fili Coffee featured on Mella TV.</h3>
+                        </div>
+                    </div>
+                </li>
+        <!--2---><li>
+                    <div class="event-card has-before hover:shine">
+                        <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                            <img src="./assets/images/event-pop2.png" width="350" height="450" loading="lazy"
+                            alt=Workshop,onEntrepreneurshipatCareerExpo" class="img-cover">
+                            <time class="publish-date label-2" datetime="11th August, 2018">11th August, 2018</time>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-subtitle label-2 text-center">Filli, Coffee</p>
+                            <h3 class="card-title title-2 text-center">Workshop on Entrepreneurship at Career Expo​.</h3>
+                        </div>
+                    </div>
+                </li>
+        <!---3--><li>
+                    <div class="event-card has-before hover:shine">
+                        <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                            <img src="./assets/images/event-pop3-.png" width="350" height="450" loading="lazy"
+                            alt=InterviewatMellaMonthlyEvent" class="img-cover">
+                            <time class="publish-date label-2" datetime="23rd August, 2018">23rd August, 2018</time>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-subtitle label-2 text-center">Filli, Coffee </p>
+                            <h3 class="card-title title-2 text-center"> Interview at Mella Monthly Event.</h3>
+                        </div>
+                    </div>
+                </li> 
+        <!---4--><li>
+                    <div class="event-card has-before hover:shine">
+                        <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                            <img src="./assets/images/event-pop4-.png" width="350" height="450" loading="lazy"
+                            alt=FiliCoffeefeatured" class="img-cover">
+                            <time class="publish-date label-2" datetime="24th February, 2020">24th February, 2020</time>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-subtitle label-2 text-center">Filli, Coffee </p>
+                            <h3 class="card-title title-2 text-center">Fili Coffee featured on BBC News.</h3>
+                        </div>
+                    </div>
+                </li> 
+        <!---5--><li>
+                    <div class="event-card has-before hover:shine">
+                        <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                            <img src="./assets/images/event-pop5.png" width="350" height="450" loading="lazy"
+                            alt=FaceofFiliCoffee-PhotographyContestFood" class="img-cover">
+                            <time class="publish-date label-2" datetime="15th August, 2019">15th August, 2019</time>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-subtitle label-2 text-center">Filli, Coffee </p>
+                            <h3 class="card-title title-2 text-center"> Face of Fili Coffee - Photography Contest.</h3>
+                        </div>
+                    </div>
+                </li>
+        <!---6--><li>
+                    <div class="event-card has-before hover:shine">
+                        <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                            <img src="./assets/images/event-pop6.png" width="350" height="450" loading="lazy"
+                            alt= Kibret-Abebe-at-Respect-Your-Thoughts-event" class="img-cover">
+                            <time class="publish-date label-2" datetime="1st December, 2019">1st December, 2019</time>
+                        </div>
+                        <div class="card-content">
+                            <p class="card-subtitle label-2 text-center">Filli, Coffee </p>
+                            <h3 class="card-title title-2 text-center">Kibret Abebe at Respect Your Thoughts event.</h3>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-primary">
+                <span class="text text-1">View Our Telegram</span>
+                <span class="text text-2" aria-hidden="true">View Our Telegram</span>
+            </a>
+        </div>
+      </section>
+    </article>
+  </main>
+      <!-- #FOOTER-->
+      <footer class=" footer section has-bg-image text-center" style="background-image: url('./assets/images/footer-bg3.jpg');">
+    <div class="container">
+        <div class="footer-top grid-list">
+            <div class="footer-brand has-before has-after">
+                <a href="#" class="logo">
+                    <img src="./assets/images/Fill_logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+                </a>
+                <address class="body-4">
+                    Branch 1 (Roastery)
+                    Lafto around 2000 Building <br>
+                    Branch 2 (Coffee Bar)
+                    Mexico Buna Ena Shay
+                    inside Coffee Training Center
+                </address>
+                <a href="mailto:info@filicoffee.com" class="body-4 contact-link">info@filicoffee.com</a>
+                <a href="tel:+251911029370" class="body-4 contact-link">Booking Request : +251-911-029-370</a>
+                <p class="body-4">
+                    Open : 09:00 am - 01:00 pm
+                </p>
+                <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                </div>
+                <p class="title-1">Get News & Join Us</p>
+                <p class="label-1">Let's Train Together <span class="span">100% Together.</span></p>
+                <form action="" class="input-wrapper">
+                    <div class="icon-wrapper">
+                        <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        <input type="email" name="email_address" placeholder="Your Email" autocomplete="off" class="input-field">
+                    <button class="btn btn-secondary">
+                        <span class="text text-1">Subscribe</span>
+                        <span class="text text-2" aria-hidden="true">Subscribe</span>
+                    </button>
+                    </div>
+                </form>
+            </div>
+            <ul class="footer-list">
+                <li><a href="#" class="label-2 footer-link hover-underline">Home</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">Menus</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">About Us</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">Our Chefs</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">Contact</a></li>
+            </ul>
+            <ul class="footer-list">
+                <li><a href="#" class="label-2 footer-link hover-underline">Facebook</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">Instagram</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">Twitter</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">Youtube</a></li>
+                <li><a href="#" class="label-2 footer-link hover-underline">Google Map</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; 2022 Filli Coffee. All Rights Reserved | Crafted by
+                <a href="https://fraoladm.com/fraoladm" target="_blank" class="link">FRAOL-ADMASU</a>
+            </p>
+        </div>
+    </div>
+      </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
